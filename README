@@ -1,0 +1,16 @@
+This Plain Weather web application provides simple weather and forecast information using the unofficial Google Weather API.
+
+It makes use of Python (v2.7), web.py (v3.2), SqlAlchemy(v0.6.8), Mako (v0.3.6), Mootools (v1.4.0.1), and JSON.
+
+The application was developed using Apache to serve the content via mod_wsgi.
+
+It was designed to work with Firefox 7 and Chrome 15.
+
+To initilize the database run this command (from the parent folder of the plainweather folder):
+[... ...]$ python InitializeDatabase.py
+
+The source code in main/lib/PlainWeatherUtils.py will need to be configured with an appropriate user/psw for MySQL access.
+
+
+
+
