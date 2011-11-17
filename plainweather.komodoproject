@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="bd24521c-40fb-4cd6-8bbf-8450ca79b567" kpf_version="5" name="plainweather.komodoproject">
+<file id="0cb9155a-ed31-4478-858f-8f234969683b" idref="3680991e-32fa-45fd-961a-dd1dd4cb7d82" name="plainweather.html" url="main/templates/plainweather.html">
+</file>
+<file id="19cc8662-7f4a-4f0e-bdfb-6052bafa8a8f" idref="3680991e-32fa-45fd-961a-dd1dd4cb7d82" name="weathertable.html" url="main/templates/weathertable.html">
+</file>
+<file id="d64c4624-6a15-4789-bd21-7c62f0f2875d" idref="3680991e-32fa-45fd-961a-dd1dd4cb7d82" name="base.html" url="main/templates/base.html">
+</file>
+<file id="0f64a078-75f1-4d92-8e3c-dea836abca50" idref="42c16219-ccb2-4aed-8836-a7f47b617bdf" name="InitializeDatabase.py" url="main/run/InitializeDatabase.py">
+</file>
+<file id="57edb6fd-f1ba-4e5d-b956-d5d13226caa1" idref="42c16219-ccb2-4aed-8836-a7f47b617bdf" name="GetSomeWeather.py" url="main/run/GetSomeWeather.py">
+</file>
+<file id="e1733a20-e99b-453e-8bae-868ab4e65cfb" idref="42c16219-ccb2-4aed-8836-a7f47b617bdf" name="GetRecentLocations.py" url="main/run/GetRecentLocations.py">
+</file>
+<file id="c1268f0f-8b1f-409a-9f4e-6a2a47a9d380" idref="48bdd585-6870-4197-89a4-9109785ea9c1" name="reset.css" url="static/css/reset.css">
+</file>
+<file id="c821db46-1c4b-46a8-8d1d-996dbaab2bb7" idref="48bdd585-6870-4197-89a4-9109785ea9c1" name="plainweather.css" url="static/css/plainweather.css">
+</file>
+<file id="de7ac6df-cfa0-4a5d-9956-af845bd3c4a8" idref="48bdd585-6870-4197-89a4-9109785ea9c1" name="base.css" url="static/css/base.css">
+</file>
+<file id="53937cfd-bb0a-4bc4-8b81-e5ff585111ae" idref="b2653b84-3eea-4da8-b9d5-ab993a69c966" name="PlainWeatherUtils.py" url="main/lib/PlainWeatherUtils.py">
+</file>
+<file id="5cf9b372-4992-4dbf-95b8-afe459e9513d" idref="b2653b84-3eea-4da8-b9d5-ab993a69c966" name="LocationUtils.py" url="main/lib/LocationUtils.py">
+</file>
+<file id="c417bb05-3fb9-472a-8304-e868621f8d59" idref="b2653b84-3eea-4da8-b9d5-ab993a69c966" name="Location.py" url="main/lib/Location.py">
+</file>
+<folder id="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" idref="bd24521c-40fb-4cd6-8bbf-8450ca79b567" name="_main">
+</folder>
+<folder id="f6e64d14-7194-45d8-af8b-1617a8ba92fb" idref="bd24521c-40fb-4cd6-8bbf-8450ca79b567" name="_static">
+</folder>
+<file id="74da7914-4bab-49b7-a10b-2a33adc8e2d6" idref="be206817-00a4-453a-bf52-aeb2f13d64bb" name="mootools-core-1.4.1-full-compat.js" url="static/js/mootools-core-1.4.1-full-compat.js">
+</file>
+<file id="e3013afc-920f-4b1b-976b-fbbe5e1c3a68" idref="be206817-00a4-453a-bf52-aeb2f13d64bb" name="plainweather.js" url="static/js/plainweather.js">
+</file>
+<file id="f0b0bdff-04d5-4508-94e8-e69f0c7956c6" idref="be206817-00a4-453a-bf52-aeb2f13d64bb" name="mootools-more-1.4.0.1.js" url="static/js/mootools-more-1.4.0.1.js">
+</file>
+<folder id="3680991e-32fa-45fd-961a-dd1dd4cb7d82" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="_templates">
+</folder>
+<folder id="42c16219-ccb2-4aed-8836-a7f47b617bdf" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="_run">
+</folder>
+<file id="74756e25-9856-43dd-abcd-cc7352e5d32e" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="PlainWeather.py" url="main/PlainWeather.py">
+</file>
+<file id="9fbf52a5-25ec-4913-b34f-1c366f4c7ead" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="GetWeather.py" url="main/GetWeather.py">
+</file>
+<folder id="b2653b84-3eea-4da8-b9d5-ab993a69c966" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="_lib">
+</folder>
+<file id="e7b7d8a8-847f-4fe1-8a2c-b17d13c317f9" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="GetLocations.py" url="main/GetLocations.py">
+</file>
+<folder id="fa9e5802-b2e7-4426-b023-25fae228d7eb" idref="cd4cb1f9-a4a5-4977-b0b2-2521232f9f75" name="_framework">
+</folder>
+<folder id="48bdd585-6870-4197-89a4-9109785ea9c1" idref="f6e64d14-7194-45d8-af8b-1617a8ba92fb" name="_css">
+</folder>
+<folder id="be206817-00a4-453a-bf52-aeb2f13d64bb" idref="f6e64d14-7194-45d8-af8b-1617a8ba92fb" name="_js">
+</folder>
+<file id="3b78c02e-d045-4628-8370-b5173ee37593" idref="fa9e5802-b2e7-4426-b023-25fae228d7eb" name="DataInterfaceObject.py" url="main/framework/DataInterfaceObject.py">
+</file>
+</project>

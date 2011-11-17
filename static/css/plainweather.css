@@ -1,0 +1,248 @@
+
+#titlebar_wrap
+{
+    background-image: none;
+    background-repeat: repeat-x;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 80px;
+    height: 150px;
+    line-height: 90px;
+    opacity: 1;
+    margin-top:0px;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+#titlebar
+{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+#titlebar_first_letter_first_word, #titlebar_first_letter_second_word, #titlebar_rest_of_first_word, #titlebar_rest_of_second_word
+{
+  display: inline;
+}
+
+#titlebar_first_letter_first_word
+{
+  position: relative;
+  top: 10px;
+  font-size: 160px;
+  line-height: 110px;
+  font-weight: lighter;
+  margin-right: -10px;
+}
+
+#titlebar_first_letter_second_word
+{
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: lighter;
+  margin-right: 0px;
+}
+
+
+#titlebar_rest_of_title
+{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+
+#content
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font: 24px/38px arial,sans-serif;
+    overflow: hidden;
+}
+
+#trimmedcontent
+{
+    width:950;
+    margin-top: 20px;
+}
+
+#site_text
+{
+    width: 100%;
+    text-align: justify;
+    font: 24px/36px "Veranda", sans-serif;
+}
+
+#selloc
+{
+    margin-top: 40px;
+}
+
+#weather-location-lbl
+{
+    font: 28px/42px "Veranda", sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    height: 40px;
+    text-align: right; 
+}
+
+#weather-location
+{
+    font: 28px/42px "Veranda", sans-serif;
+    font-weight: normal;
+    border: none;
+    padding: 0px;
+    padding-left: 5px;
+    height: 40px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.weather-location-normal
+{
+    background-color: #a8a8a8;   
+}
+
+.weather-location-error
+{
+    background-color: #986557;   
+}
+
+#weather-search-submit
+{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: bottom;
+    font-family: "Veranda", sans-serif;
+    font-size: 28px;
+    line-height: 10px;
+    height: 42px;
+    text-align: left;
+    border-radius: 3px;
+    background-color: #5f5f5f;
+    color: #8C9CC4;
+}
+
+#weather-search-submit:hover, #weather-search-submit:active, #weather-search-submit:visited
+{
+    background-color: #3f3f3f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#recentplaces
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#recentset1wrap, #recentset2wrap
+{
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+#recentset0
+{
+    opacity: 0;
+}
+
+#recentcontent
+{
+    white-space: nowrap;
+}
+
+div.recentcontentinactive div
+{
+    background-color: #8C796B;
+}
+
+div.recentcontentactive div
+{
+    background-color: #8C796B;
+}
+
+.recentplace
+{
+    display:inline;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    line-height: 66px;
+    font-weight: bold;
+    width:auto;
+    height: 54px;
+    text-align: left;
+    border-radius: 6px;
+    color: #8C9CC4;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+#weatherforlocation
+{
+  position: relative;
+    width: 700px;
+    height: 300px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*overflow: hidden;*/
+}
+
+.recentplace:hover, .recentplace:active, .recentplace:visited
+{
+    background-color: #786557;
+    color: #7C8CB4;
+    text-decoration: none;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+
+.weatherwrapdormant, .weatherwrapinactive
+{
+    opacity: 0;
+}
+
+.weatherwrapactive, .weatherwrapinactive, .weatherwrapdormant
+{
+    background-color: #CCCCCC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 25px;
+    width: 700px;
+    height: 210px;
+    opacity: 0;
+    display: none;
+}
+
+.weatherwrapactive, .weatherwrapinactive
+{
+    position: absolute;
+    top:0;   
+}
+
+#weatherfooter
+{
+    height: 20px;
+}
+
+
+

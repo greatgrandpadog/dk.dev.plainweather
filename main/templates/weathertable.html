@@ -1,0 +1,75 @@
+
+<%page args="activeclass='weatherwrapactive'"/>
+
+<div id="weatherwrap" class="${activeclass}"
+    <table cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="100%" valign="top">
+                    <h3 class="weatherplace">Someplace, MO</h3>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" valign="top">
+                    <div>
+                        <table cellspacing="0" style="padding:4px 0 0">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="3" style="vertical-align:center;padding-right:10px">
+                                        <img class="currentweathericon" width="60" height="60" border="0" style="margin-right:3px;vertical-align:top" src="//ssl.gstatic.com/onebox/weather/60/snow.png">
+                                    </td>
+                                    <td rowspan="2" style="font-size:140%;white-space:nowrap;vertical-align:top;padding-right:15px;font-weight:bold">
+                                        <b class="currentweathertemperature">7</b>°F
+                                    </td>
+                                    <!--<td rowspan="1" class="currentweathercondition" style="white-space:nowrap;padding-right:15px;color:#225">raining cats and dogs</td>-->
+                                    <!--<td rowspan="2" class="currentweathercondition" style="font-size:140%;white-space:nowrap;vertical-align:top;padding-right:15px;font-weight:bold">raining cats and dogs</td>-->                                
+                                    <td rowspan="5" style="width:5px;border-left:solid 1px #7C8CB4"></td>
+                                    <td class = "forecasetday_of_week1" align="center" colspan="2" style="vertical-align:top;width:80px">Blah1</td>
+                                    <td class = "forecasetday_of_week2" align="center" colspan="2" style="vertical-align:top;width:80px">Blah2</td>
+                                    <td class = "forecasetday_of_week3" align="center" colspan="2" style="vertical-align:top;width:80px">Blah3</td>
+                                    <td class = "forecasetday_of_week4" align="center" colspan="2" style="vertical-align:top;width:80px">Blah4</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" rowspan="2" style="text-align:center">
+                                        <img class="forecasticon1" width="35" height="35" border="0" style="margin-right:3px;vertical-align:top;margin:0 12px" alt="Snow Showers" title="Snow Showers" src="//ssl.gstatic.com/onebox/weather/35/snow.png">
+                                    </td>
+                                    <td colspan="2" rowspan="2" style="text-align:center">
+                                        <img class="forecasticon2" width="35" height="35" border="0" style="margin-right:3px;vertical-align:top;margin:0 12px" alt="Mostly Cloudy" title="Mostly Cloudy" src="//ssl.gstatic.com/onebox/weather/35/partly_cloudy.png">
+                                    </td>
+                                    <td colspan="2" rowspan="2" style="text-align:center">
+                                        <img class="forecasticon3" width="35" height="35" border="0" style="margin-right:3px;vertical-align:top;margin:0 12px" alt="Partly Cloudy" title="Partly Cloudy" src="//ssl.gstatic.com/onebox/weather/35/partly_cloudy.png">
+                                    </td>
+                                    <td colspan="2" rowspan="2" style="text-align:center">
+                                        <img class="forecasticon4" width="35" height="35" border="0" style="margin-right:3px;vertical-align:top;margin:0 12px" alt="Partly Cloudy" title="Partly Cloudy" src="//ssl.gstatic.com/onebox/weather/35/partly_cloudy.png">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" class="currentweathercondition" style="white-space:nowrap;padding-right:15px;color:#225">raining cats and dogs</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class = "currentweatherwind_condition" style="white-space:nowrap;padding-right:15px;color:#225">Wind: NW at 13 mph</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:5px;padding-right:2px;vertical-align:bottom"><b class="forecasthigh1">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:5px;padding-right:2px;vertical-align:bottom"><b class="forecasthigh2">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:5px;padding-right:2px;vertical-align:bottom"><b class="forecasthigh3">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:5px;padding-right:2px;vertical-align:bottom"><b class="forecasthigh4">123</b>°</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class = "currentweatherhumidity" style="white-space:nowrap;padding-right:15px;vertical-align:top;color:#225">Humidity: 84%</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:2px;padding-right:5px;vertical-align:top;color:#252"><b class="forecastlow1">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:2px;padding-right:5px;vertical-align:top;color:#252"><b class="forecastlow2">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:2px;padding-right:5px;vertical-align:top;color:#252"><b class="forecastlow3">123</b>°</td>
+                                    <td colspan="2" style="text-align:center;white-space:nowrap;padding-left:2px;padding-right:5px;vertical-align:top;color:#252"><b class="forecastlow4">123</b>°</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

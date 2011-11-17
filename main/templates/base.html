@@ -1,0 +1,40 @@
+## File: templates/base.html
+
+<html>
+<head>
+<title>${next.title_first_letter_first_word()}${next.title_rest_of_first_word()}${next.title_first_letter_second_word()}${next.title_rest_of_second_word()}</title>
+<script src="/static/js/mootools-core-1.4.1-full-compat.js"></script>
+<script src="/static/js/mootools-more-1.4.0.1.js"></script>
+<script src="/static/js/plainweather.js"></script>
+<link rel="stylesheet" href="/static/css/reset.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="/static/css/base.css" type="text/css" media="screen" charset="utf-8"/>
+${next.css()}
+</head>
+<body>
+    <div id = "headerbar">
+        <div id = "hbup">
+            <div id = "hbupwrap">
+                <div id = "hbuptitle">Plain Weather</div>
+                <p>This Plain Weather web application provides simple weather and forecast information using the unofficial Google Weather API.
+                It makes use of Python (v2.7), web.py (v3.2), SqlAlchemy(v0.6.8), Mako (v0.3.6), Mootools (v1.4.0.1), and JSON.
+                The application was developed using Apache to serve the content via mod_wsgi.
+                It was designed to work with Firefox 7 and Chrome 15.</p>
+                <br/><p>Source code is available as a tar.gz file (<a href="/static/src/plainweather.src.tar.gz">here</a>), or from a github repository (<a href="http://github.com/greatgrandpadog/dk.dev.plainweather">here</a>).</p>
+            </div>
+        </div>
+        <div id = "hbl" >
+        </div>
+        <div id = "hbr" >
+            <div id = "htaglink"></div>
+            <div id = "hlogo"></div>
+        </div>
+        <div id = "hbbgwrap">
+            <div id = "hbbgl"></div>
+            <div id = "hbbgr"></div>
+        </div>
+    </div>
+    <div id = "contentbase">
+            ${next.body()}
+    </div>
+</body>
+</html>

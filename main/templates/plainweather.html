@@ -1,0 +1,76 @@
+## File: templates/plainweather.html
+
+<%inherit file="base.html" />
+
+<%def name="title_first_letter_first_word()">P</%def>
+<%def name="title_rest_of_first_word()">lain </%def>
+<%def name="title_first_letter_second_word()">W</%def>
+<%def name="title_rest_of_second_word()">eather</%def>
+
+<%def name="css()">
+    <link rel="stylesheet" href="/static/css/plainweather.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/static/css/weathertable.css" type="text/css" media="screen" charset="utf-8"/>
+</%def>
+
+<%def name="weathertable(activeclass)">
+    <%include file="weathertable.html" args="activeclass=activeclass"/>
+</%def>
+
+<%def name="body()">
+    <center>
+        <div id="content">
+            <div id="recentplaces">
+                    <div id="recentset0wrap">
+                        <div id="recentset0" class="recentcontent recentcontentdormant">
+                            <div class = "recentplace">Dormant</div>
+                        </div>
+                    </div>
+                    <div id="recentset1wrap">
+                        <div id="recentset1" class="recentcontent recentcontentactive">
+                            % for elem in recent_locations:
+                                <div class = "recentplace">${elem}</div>
+                            % endfor
+                        </div>
+                    </div>
+                    <div id="recentset2wrap">
+                        <div id="recentset2" class="recentcontent recentcontentinactive">
+                        </div>
+                    </div>
+            </div>
+            <div id = "titlebar_wrap">
+                <div id = "titlebar">
+                    <div id = "titlebar_first_letter_first_word">${title_first_letter_first_word()}</div><div
+                        id = "titlebar_rest_of_first_word">${title_rest_of_first_word()}</div><div
+                            id = "titlebar_first_letter_second_word">${title_first_letter_second_word()}</div><div
+                                id = "titlebar_rest_of_second_word">${title_rest_of_second_word()}</div>
+                </div>
+            </div>
+            <div id="trimmedcontent">
+                <center>
+                    <div id = "site_text">
+                        Welcome to Plain Weather, your source for just plain weather. Select a previously entered location, or enter a new location. Locations may be entered in the form of City, State or Zip Code. 
+                    </div>
+                    <div id = "selloc">         
+                        <form id="weather-request-form" name="weather-request-form">
+                                <div class="search-frmbdy">
+                                    <label id="weather-location-lbl" for="weather-location">Location    </label>
+                                    <input id="weather-location" class="weather-location-normal" type="textbox" name="location" autocomplete="off" value="">
+                                    <input id="weather-search-submit" type="submit" value="  GO  ">
+                                    <br \="">
+                                </div>
+                        </form>
+                    </div>
+                    <div id="weatherforlocation">
+                         ${weathertable('weatherwrapactive')}
+                         ${weathertable('weatherwrapinactive')}
+                         ${weathertable('weatherwrapdormant')}    
+                    </div>
+                    <div id="weatherfooter"></div>
+                </center>
+            </div>
+        </div>
+    </center>
+</%def>
+
+
+

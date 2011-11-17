@@ -1,0 +1,146 @@
+
+
+body
+{
+  background-color:#7C8CB4;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+#headerbar
+{
+    margin-top: 5px;
+    height: 15px;
+    font: 24px/38px arial, sans-serif;  
+}
+
+#hbl, #hbr
+{
+    height: 15px;
+    position: absolute;
+    top:5px;
+    white-space: nowrap;
+    z-index:1000;
+    color: #7C8CB4;
+}
+
+
+#hbup
+{
+    /*height: 160px;*/
+    position: absolute;
+    background-color:#7C8CB4;
+    top:-300px;
+    left:0;
+    right:0;
+    z-index:1000;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+}
+
+#hbupwrap
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: "Veranda", sans-serif;
+    font-weight: lighter;
+}
+
+#hbuptitle
+{
+    color:#000000;
+    font: 24px/38px "Courier New", Courier, monospace;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hbl
+{
+    left: 0;
+    padding-left: 10px;
+}
+
+#hbr
+{
+    right: 0;
+    padding-right: 10px; 
+}
+
+
+#hbbgwrap
+{
+    font-size: 35px;
+    margin-top: 5px;
+    height: 15px;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    z-index: 900;
+    cursor: pointer;     
+}
+
+
+#hbbgl, #hbbgr
+{
+    background-color: #3F3F3F;
+    background-image: none;
+    background-position: 0 0px;
+    background-repeat: repeat-x;
+    border-radius: 7px;
+    height: 15px;
+    width: 60%;
+    position: absolute;
+}
+
+#hbbgl
+{
+    left: 10px;
+}
+
+#hbbgr
+{
+  right: 10px;
+}
+
+#contentbase
+{
+    position:absolute;
+    top:20px;
+    width: 100%;
+}
+
+#hlogo
+{
+    float:right;
+    margin-right: 20;
+}
+
+#htaglink
+{
+    float:right;
+    background: url("/static/images/up_arrow.png") no-repeat scroll center right;
+    width: 40px;
+    margin-top: -1px;
+    min-height: 15px;
+    min-width: 15px;
+}
+
+
+#infobar
+{
+  background: #D0C8C8;
+  color: #7C8CB4;
+  padding: 10px;
+  border: 5px solid #F3F1F1;
+  font-weight: bold;
+}
+
+#hdrspc
+{
+  height: 20px;
+}
