@@ -16,7 +16,7 @@ from DataInterfaceObject import *
 
 class PlainWeatherUtils(DataInterfaceObject):
     def __init__(self):
-        super(PlainWeatherUtils, self).__init__("localhost", "foobar", "bar", "plainweather")        
+        super(PlainWeatherUtils, self).__init__("localhost", "webuser", "webuser", "plainweather")        
         self._locations_utils = LocationUtils(self._db_host, self._db_user, self._db_password, self._db_name)
   
                    
